@@ -13,3 +13,23 @@ The class includes methods for:
 - logical grid addition
 
 This project demonstrates object-oriented programming in Python.
+
+## Example Output
+
+Example grid:
+
+□ ■ ■  
+■ ■ □  
+■ □ ■  
+
+Vertical reflection:
+
+■ □ ■  
+■ ■ □  
+□ ■ ■  
+
+Clockwise rotation:
+
+■ ■ □  
+□ ■ □  
+■ ■ □  
