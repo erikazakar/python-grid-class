@@ -33,3 +33,15 @@ Clockwise rotation:
 ■ ■ □  
 □ ■ □  
 ■ ■ □  
+## Example Usage
+
+```python
+from grids import Grid
+
+x = Grid(3, [(0,1),(0,2),(1,0),(1,1),(2,0),(2,2)])
+
+print(x)
+
+print(x.v_reflected())
+
+print(x.rotated())
